@@ -1,0 +1,58 @@
+/* Link hub — Taslima Tabassum Shoshy */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(170deg, #241a33 0%, #3d2b5c 50%, #5e2f56 100%);
+  background-attachment: fixed;
+  color: #fff8ef;
+  line-height: 1.55;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.hub {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 2.5rem 1.1rem 3rem;
+  text-align: center;
+}
+.avatar {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 248, 239, 0.85);
+  margin: 0 auto 1rem;
+  display: block;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+}
+h1 { font-size: 1.7rem; margin: 0 0 0.3rem; line-height: 1.25; }
+.headline { font-weight: 700; margin: 0 0 0.2rem; opacity: 0.95; }
+.founder { margin: 0 0 0.8rem; opacity: 0.8; font-size: 0.95rem; }
+.email-link { color: #ffd9ec; text-decoration: none; font-weight: 600; word-break: break-all; }
+.email-link:hover { text-decoration: underline; }
+
+section { margin-top: 2rem; text-align: left; }
+h2 { font-size: 1.05rem; letter-spacing: 0.04em; margin: 0 0 0.7rem 0.2rem; opacity: 0.95; }
+.links { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.65rem; }
+.link-btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  color: #2b2430;
+  background: #fff8ef;
+  border: 2px solid transparent;
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  transition: transform 0.08s ease, border-color 0.08s ease;
+}
+.link-btn:hover { transform: translateY(-1px); border-color: #e0a8c8; }
+.link-btn.muted { opacity: 0.65; cursor: default; }
+.link-btn.muted:hover { transform: none; border-color: transparent; }
+.soon { font-weight: 600; font-size: 0.85em; opacity: 0.75; }
+
+footer { margin-top: 2.5rem; font-size: 0.85rem; opacity: 0.7; }
+footer p { margin: 0; }
